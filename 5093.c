@@ -1,11 +1,3 @@
-/*
- * diane_lane_fucked_hard.c
- *
- * Linux vmsplice Local Root Exploit
- * By qaaz
- *
- * Linux 2.6.23 - 2.6.24
- */
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <errno.h>
@@ -143,5 +135,3 @@ int	main(int argc, char *argv[])
 	die("/bin/bash", errno);
 	return 0;
 }
-
-// milw0rm.com [2008-02-09]
